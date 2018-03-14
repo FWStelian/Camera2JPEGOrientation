@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Camera2JPEGOrientation</string>
+    
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="permission_storage_rationale">We need access to the external storage in order to import images</string>
+    <string name="no_storage_permission">We can not import images because the app does not have permission to read external storage.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_done">Done</string>
+    <string name="action_next">Next</string>
+    <string name="camera2_jpeg_orientation">Camera2 JPEG orientation</string>
+    <string name="camera_permission_is_required_in_order_to_run_this_demo">Camera permission is required in order to run this demo</string>
+    <string name="action_grant_permission">Grant permission</string>
+    <string name="activity_jpeg_viewer">JPEG Viewer</string>
+    <string name="action_decode_byte_array">Decode Byte Array</string>
+    <string name="action_decode_file">Decode File</string>
+
+</resources>

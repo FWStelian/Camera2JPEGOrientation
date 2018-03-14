@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.futureworkshops.camera2jpegorientation.presentation.viewer.JpegViewerActivity">
+    
+    <include layout="@layout/toolbar"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:orientation="horizontal"
+        android:paddingEnd="@dimen/default_padding"
+        android:paddingStart="@dimen/default_padding">
+        
+        <Button
+            android:id="@+id/decodeByteArrayBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/action_decode_byte_array"/>
+        
+        <Button
+            android:id="@+id/decodeFileBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/action_decode_file"/>
+    
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="@dimen/default_padding"
+        tools:src="@color/colorAccent"
+        android:scaleType="fitCenter"/>
+
+</LinearLayout>
